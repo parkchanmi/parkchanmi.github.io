@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Final</title>
+</head>
+<body>
+    <div class="main">
+        <div class="js-clock">
+            <h2></h2>
+            <h1></h1>
+        </div>
+        <div class="login">
+            <form id="form-login">
+                <input type="text" id="userName" name="userName" required/>
+                <input type="submit" value="Log In"/>
+            </form>
+            <div id="userDiv" class="hidden">
+                <h1 id="greeting"></h1>
+                <button id="logout">Log Out</button>
+            </div>
+        </div>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+        <div class="todo">
+            <form id="todo-form">
+                <input type="text" placeholder="Write a To Do and Press Enter" required />
+            </form>
+            <ul id="todo-list"></ul>
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+    <script src="clock.js"></script>
+    <script src="login.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather.js"></script>
+</body>
+</html>
